@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#ffffff;
+}
+
+.hero{
+    background:#2d465c;
+    color:white;
+    padding:40px 120px 80px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.logo h1{
+    font-size:45px;
+    font-weight:100;
+    line-height:1.1;
+    color:white;
+}
+
+.right-header{
+    text-align:right;
+}
+
+.date{
+    color:#8cb09a;
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:20px;
+}
+
+nav a:hover{
+    color: #7b9ebd;
+}
+
+.hero-content{
+    text-align:center;
+    margin-top:80px;
+}
+
+.hero-content h2{
+    color:#8cb09a;
+    font-size:48px;
+    font-weight:300;
+    margin-bottom:25px;
+}
+
+.hero-content p{
+    font-size:24px;
+    width:70%;
+    margin:auto;
+    line-height:1.8;
+}
+
+.hero-content button{
+    margin-top:40px;
+    padding:20px 40px;
+    font-size:24px;
+    background:transparent;
+    color:white;
+    border:2px solid white;
+    border-radius:5px;
+
+}
+
+.hero-content button:hover{
+    background-color: #ffffff;
+    color: #5c7c97;;
+}
+
+.cards{
+    width:80%;
+    margin: 80px auto;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    width: 280px;
+}
+
+.card h3{
+    color:#9aa7b8;
+    font-size:14px;
+    margin-bottom:20px;
+    letter-spacing:1px;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    border-radius:5px;
+    
+}
+
+.card h2{
+    color:#6d8f8f;
+    font-weight:300;
+    margin:25px 0 20px;
+    font-size:22px;
+}
+
+.card p{
+    color:#777;
+    font-size:16px;
+    line-height:1.8;
+}
+
+
+footer{
+    background:#2d465c;
+    color:#86a88d;
+    padding:40px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left{
+    font-size:16px;
+}
+
+.footer-right a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:16px;
+}
+
+.footer-right a:hover{
+    color:#86a88d;
+}
